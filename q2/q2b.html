@@ -1,0 +1,39 @@
+<!-- DO NOT MODIFY THE CODE BELOW -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q2b</title>
+</head>
+
+<body>
+    <form action="q2b_process.php" method="POST">
+        <table border='1'>
+            <tr>
+                <th colspan=2><h3>5 days Tingkat Meal Ordering</h3></th>
+            </tr>
+            <tr>
+                <td>No. of Person: </td>
+                <td>
+                    <input type='text' name='person_qty' value='0'>
+                </td>
+            </tr>
+            <tr>
+                <td>Meal Type: </td>
+                <td>
+                    <input type='checkbox' name='meal_type[]' value='Lunch'>Lunch
+                    <input type='checkbox' name='meal_type[]' value='Dinner'>Dinner
+                </td>
+            </tr>
+            <tr>
+                <td>Rice Option: </td>
+                <td>
+                    <input type='radio' name='rice_option' value='White Rice'>White Rice ($0.80) <br>
+                    <input type='radio' name='rice_option' value='Brown Rice'>Brown Rice ($1.00)
+                </td>
+            </tr>
+        </table><br>
+        <input type='submit' value='Order Now'><br><br>
+    </form>
+</body>
+</html>
